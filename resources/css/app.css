@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Vue-Multiselect */
+.multiselect__placeholder {
+  display: inline-block !important;
+  margin-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+
+.multiselect.invalid .multiselect__tags {
+  border: 1px solid #f86c6b !important;
+}
+
+.multiselect__option--highlight {
+  background: #30435e !important;
+}
+
+.multiselect__option--highlight:after {
+  background: #30435e !important;
+}
+
+.multiselect__tags {
+  padding: 5px !important;
+  min-height: 10px;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity)) !important;
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05) !important;
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color) !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+  --tw-border-opacity: 1;
+}
+
+.multiselect__placeholder {
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.multiselect__input {
+  font-size: 14px !important;
+  margin: auto !important;
+  padding: 3px 3px 3px 8px !important;
+}
+
+.multiselect__tag {
+  background: #1f2937 !important;
+  border: 1px solid rgba(60, 60, 60, 0.26) !important;
+  color: #f3f4f6 !important;
+  margin-bottom: 0px !important;
+  margin-right: 5px !important;
+}
+
+.multiselect__tag-icon:after {
+  color: #f3f4f6 !important;
+}
+
+.multiselect__tag-icon:focus,
+.multiselect__tag-icon:hover {
+  background: #a5a5a569 !important;
+}
+
+.multiselect__tag-icon:focus:after,
+.multiselect__tag-icon:hover:after {
+  color: #ffffff !important;
+}
+
+/* Sidebar */
+.from-sky-600 {
+  --tw-gradient-from: #1C274C var(--tw-gradient-from-position);
+}
+
+.to-cyan-400 {
+  --tw-gradient-to: #001518 var(--tw-gradient-to-position) !important;
+}
+
+/* Fontawesome Icons */
+svg.svg-inline--fa.fa-pen:focus,
+svg.svg-inline--fa.fa-pen:hover,
+svg.svg-inline--fa.fa-trash:focus,
+svg.svg-inline--fa.fa-trash:hover {
+  color: rgb(129 179 185) !important;
+}
+
+/* New Custom */
+.text-navy-blue {
+  color: #1C274C !important
+}
+
+.to-lowercase {
+  text-transform: lowercase
+}
+
+.logo-light {
+  color: white !important;
+}
