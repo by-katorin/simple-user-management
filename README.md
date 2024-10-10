@@ -23,7 +23,7 @@ A [Dockerized](https://www.docker.com/) Laravel application built using **[Larav
 
 ### Clone the Repository
 ```
-git clone https://github.com/by-artemis/simple-user-management.git
+git clone https://github.com/by-katorin/simple-user-management.git
 ```
 
 ### Make Initial Setup
